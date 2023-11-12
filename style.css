@@ -1,0 +1,63 @@
+title { color: red  }
+
+h1 { font-family: 'Roboto', sans-serif;
+color: rgb(255,255,255);
+font-size: 30px;}
+h2	{ 
+	color: rgb(255,255,255);
+		font-family: 'Roboto', sans-serif;}
+body { background-color: rgb(209,209,209);
+	color: 323232;
+	text-align: center;
+	background-image: url(images/fond1.jpg);
+	
+
+ }
+ p { color: rgb(255,255,255);}
+
+  #profilep { border-radius: 400px;
+  	width: 200px;
+  	height: 200px;
+  }
+
+i { color: rgba(255,255,255,0.8);
+width: 25px;
+height: 25px; }
+#btn-black { color:#706c61;
+	transition: color 0.3s ease;
+	text-decoration: none;
+ background-color: grey;
+color: white;
+		padding: 5px 10px ;}
+
+
+#btn-black:hover { background-color: red;
+	color: black;
+text-decoration: underline;}
+
+.rectangle-blanc { background: #ffffff00;
+	border-collapse:  30px;
+
+	
+	padding-right:100px;
+	padding-left:100px;
+	width: 100px
+	border-radius: 15px;
+	box-shadow: 0 100px 150px rgba(0,0,0,0.2);}
+
+
+	
+	#list-grey { list-style: none;
+	padding: 50px;  }
+
+
+    @media (max-width:960) {
+    	.rectangle-blanc {width: 500px}
+
+    }
+    @media (max-width:720) {
+    	.rectangle-blanc {width: 340px}
+    }
+    @media (max-width:540) {
+    	.rectangle-blanc {width: 120px}
+    }
